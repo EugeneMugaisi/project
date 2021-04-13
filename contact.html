@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contacts.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>project 1</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script type="text/javascript">
+        $(window).on('scroll', function(){
+            if ($(window).scrollTop()){
+                $('header').addClass('black');
+            }
+            else
+            {
+                $('header').removeClass('black');
+            }
+        })
+    </script>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="logo.jfif" alt="" class="logopic"></a>
+        <div class="menu-toggle"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html"  class="active">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="clearfix"></div>
+    </header>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.menu-toggle').click(function(){
+            $('.menu-toggle').toggleClass('active')
+            $('nav').toggleClass('active')
+            })
+        })
+    </script>
+    <main>
+        <div class="box1">
+
+        </div>
+        <div class="box2">
+            <ul>
+                <li>Find Us:</li>
+                <li>Phone:</li>
+                <li>Email Us:</li>
+            </ul>
+        </div>
+    </main>
+    <footer class="footer">
+        <a href="https://www.facebook.com/profile.php?id=100045653815010"><img src="fblogo.png" width="25px" height="25px" alt=""></a>
+        <a href="https://youtube.com/channel/UCqHTEB5Ny-5T0MM6x7pvdng" class="ytlogo"><img src="ytlogo.png" width="25px" height="25px" alt=""></a>
+        <p>Kakamega Friends Church (QUAKERS)</p>
+        <div class="copyright"><p>&copy;KFC</p></div>
+    </footer>
+</body>
+</html>

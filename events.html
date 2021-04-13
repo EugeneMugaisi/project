@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="events.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>project 1</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script type="text/javascript">
+        $(window).on('scroll', function(){
+            if ($(window).scrollTop()){
+                $('header').addClass('black');
+            }
+            else
+            {
+                $('header').removeClass('black');
+            }
+        })
+    </script>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="logo.jfif" alt="" class="logopic"></a>
+        <div class="menu-toggle"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="events.html"  class="active">Events</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="clearfix"></div>
+    </header>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.menu-toggle').click(function(){
+            $('.menu-toggle').toggleClass('active')
+            $('nav').toggleClass('active')
+            })
+        })
+    </script>
+    <main>
+        <div class="programmes">
+           <h2>SERVICES</h2>
+           <h3>Order Of Services</h3>
+           <p>Our worship services are conducted every Sunday as follows:</p>
+           <div class="table-box">
+                <div class="table-row tablehead">
+                    <div class="table-cell">
+                        <p>SUNDAY OF THE MONTH</p>
+                    </div>
+                    <div class="table-cell">
+                        <p>SERVICE(s)</p>
+                    </div>
+                    <div class="table-cell">
+                        <p>TIME</p>
+                    </div>
+                    <div class="table-cell">
+                        <p>VENUE</p>
+                    </div>
+                </div>
+                <div class="table-row">
+                    <div class="table-cell">
+                        <p>1<sup>ST</sup> SUNDAY</p>
+                    </div>
+                    <div class="table-cell">
+                    <p>Family Service</p>
+                </div>
+                <div class="table-cell">
+                    <p>9:00a.m-12p.m</p>
+                </div>
+                <div class="table-cell">
+                    <p>At our church</p>
+                </div>
+                </div>
+                <div class="table-row">
+                    <div class="table-cell">
+                        <p>2<sup>ND</sup> SUNDAY</p>
+                    </div>
+                    <div class="table-cell">
+                    <p>
+                        <ul>
+                            <li>Morning Service</li>
+                            <li>English Service</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="table-cell">
+                    <p>
+                        <ul>
+                            <li>7:15a.m- 9:00a.m</li>
+                            <li>9:00a.m- 11:a.m</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="table-cell">
+                    <p>At our church</p>
+                </div>
+                </div>
+                <div class="table-row">
+                    <div class="table-cell">
+                        <p>3<sup>RD</sup> SUNDAY</p>
+                    </div>
+                    <div class="table-cell">
+                    <p>
+                        <ul>
+                            <li>Morning Service</li>
+                            <li>English Service</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="table-cell">
+                    <p>
+                        <ul>
+                            <li>7:15a.m- 9:00a.m</li>
+                            <li>9:00a.m- 11:a.m</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="table-cell">
+                    <p>At our church</p>
+                </div>
+                </div>
+                <div class="table-row">
+                    <div class="table-cell">
+                        <p>LAST SUNDAY</p>
+                    </div>
+                    <div class="table-cell">
+                    <p>Monthly Meeting Worship</p>
+                </div>
+                <div class="table-cell">
+                    <p>9:00a.m-12p.m</p>
+                </div>
+                <div class="table-cell">
+                    <p>We alternate every month with our sister church- Murhembe Village Meeting</p>
+                </div>
+                </div>
+                <div class="table-row">
+                    <div class="table-cell">
+                        <p>EVERY WEDNESDAY</p>
+                    </div>
+                    <div class="table-cell">
+                    <p>Mid-week Service</p>
+                </div>
+                <div class="table-cell">
+                    <p>5:00p.m- 6:00p.m</p>
+                </div>
+                <div class="table-cell">
+                    <p>At the church</p>
+                </div>
+                </div>
+            </div>
+            <p>However, due to covid-19 pandemic our services are as follows:</p>
+            <ul>
+                <li>First service- 7:15a.m to 9:00a.m</li>
+                <li>Second service- 9:30a.m-11a.m</li>
+            </ul>
+            <h3>Other Meetings</h3>
+            <ul>
+                <li>Every Thursday evening- Home cells fellowship</li>
+                <li>Choir practices- Tuesday/ Friday at 4 P.M</li>
+                <li>Praise& Worship Team practice- every Saturday at 4p.m</li>
+            </ul>
+        </div>
+        <div class="announcements">
+            <div>
+                <h2>ANNOUNCEMENTS</h2>
+            </div>
+            <div>
+
+            </div>
+        </div>
+        <div class="events">
+            <div>
+                <h2>EVENTS</h2>
+            </div>
+            <div>
+
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <a href="https://www.facebook.com/profile.php?id=100045653815010"><img src="fblogo.png" width="25px" height="25px" alt=""></a>
+        <a href="https://youtube.com/channel/UCqHTEB5Ny-5T0MM6x7pvdng" class="ytlogo"><img src="ytlogo.png" width="25px" height="25px" alt=""></a>
+        <p>Kakamega Friends Church (QUAKERS)</p>
+        <div class="copyright"><p>&copy;KFC</p></div>
+    </footer>
+</body>
+</html>

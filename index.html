@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>project 1</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script type="text/javascript">
+        $(window).on('scroll', function(){
+            if ($(window).scrollTop()){
+                $('header').addClass('black');
+            }
+            else
+            {
+                $('header').removeClass('black');
+            }
+        })
+    </script>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="logo.jfif" alt="" class="logopic"></a>
+        <div class="menu-toggle"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="clearfix"></div>
+    </header>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.menu-toggle').click(function(){
+            $('.menu-toggle').toggleClass('active')
+            $('nav').toggleClass('active')
+            })
+        })
+    </script>
+    <main>
+        <div class="scrollpt">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui ad suscipit nisi laboriosam reiciendis molestiae nulla. Dolorum nisi molestias deleniti accusantium, alias consectetur corrupti tenetur deserunt quia modi sint ab.</p>
+        </div>
+        <div class="paragraph">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla enim dolores exercitationem et deserunt delectus sunt expedita maxime, dolorum voluptatibus optio ab vel necessitatibus! Quas, voluptatem! Dolore, odio nihil. Soluta.</p>
+        </div>
+        <div class="box1">
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum fuga pariatur rerum ut repellat assumenda itaque distinctio quis inventore eius ullam magnam odit ducimus quas nemo mollitia, nam laudantium aperiam.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam nostrum in officia est molestias, asperiores facilis. Porro placeat temporibus sapiente quae provident cum maiores doloremque, perspiciatis facere sunt consequuntur eius!</p>
+            </div>
+            <div class="img1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque numquam ducimus, expedita ex laboriosam quaerat voluptatibus. Velit impedit ratione obcaecati dolorum sit libero fuga, aspernatur provident nihil eveniet. Officia, facere!</p>
+            </div>  
+            <div class="text 1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nesciunt atque consectetur aspernatur eligendi fugiat illum officia accusamus, dolor quidem quam, provident pariatur voluptatem similique odio obcaecati, autem nam aliquam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolore quam quaerat odit totam beatae eveniet corrupti non in quos omnis, quae modi corporis recusandae earum id explicabo labore eaque?</div>          
+        </div>
+        <div class="box2">
+            <div class="img2">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita ex aut sunt ad officiis, cumque delectus eius, vitae debitis esse earum consequatur commodi at, perferendis eos repellendus numquam sapiente sit.</p>
+            </div>
+            <div class="text2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis odit blanditiis cum aliquid, impedit nemo! Error, numquam voluptates. Expedita eos vitae repellendus veniam culpa ullam ea aliquam recusandae nostrum unde.</p>
+            </div>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla enim dolores exercitationem et deserunt delectus sunt expedita maxime, dolorum voluptatibus optio ab vel necessitatibus! Quas, voluptatem! Dolore, odio nihil. Soluta.</p>
+        </div>
+    </main>
+    <footer class="footer">
+        <a href="https://www.facebook.com/profile.php?id=100045653815010"><img src="fblogo.png" width="25px" height="25px" alt=""></a>
+        <a href="https://youtube.com/channel/UCqHTEB5Ny-5T0MM6x7pvdng" class="ytlogo"><img src="ytlogo.png" width="25px" height="25px" alt=""></a>
+        <p>Kakamega Friends Church (QUAKERS)</p>
+        <div class="copyright"><p>&copy;KFC</p></div>
+    </footer>
+</body>
+</html>
