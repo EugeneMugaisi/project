@@ -4,8 +4,8 @@ body
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    background: url(oip.jpg);
-    background-attachment: fixed;
+    /* background: url(oip.jpg); */
+    /* background-attachment: fixed; */
 }
 header
 {
@@ -14,7 +14,7 @@ header
     /* max-width: 1200px; */
     margin: 20px auto;
     padding: 10px;
-    /* background: #fff; */
+    background: url(oip.jpg);
     box-sizing: border-box;
     border-radius: 4px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -135,25 +135,42 @@ nav ul li a:hover
 h1
 {
     text-align: center;
-    color: #fff;
+    color: #000;
     margin: 30px 0 50px;
 }
-.gallery
+.GeorgeFox
 {
     margin: 10px 50px;
     background: rgba(255, 255, 255, .3);
+    display: flex;
+    justify-content: center;
+
 }
-.gallery img
+.GeorgeFox img
 {
     width: 230px;
     padding: 5px;
     filter: grayscale(100%);
     transition: 1s;
 }
-.gallery img:hover
+.GeorgeFox img:hover
 {
     filter: grayscale(0%);
     transform: scale(1.1);
+}
+/* br
+{
+    color: grey;
+} */
+.gfdescription
+{
+    font-size: 24px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(1, 31, 83);
+    color: rgb(255, 136, 0);
 }
 .footer
 {
