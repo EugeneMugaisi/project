@@ -244,28 +244,30 @@ nav ul li a:hover
 }
 .footer
 {
-    /* margin-top: 20px; */
     height: auto;
     width: 100%;
-    background: rgba(0, 0, 0, .1);
+    background: rgba(0, 0, 0, .15);
 }
 .footer .copyright
 {
-    margin-left: 20px;
-    font-size: 18px;
-    font-weight: 200;
-    color: rgb(255, 136, 0);
+    /* width: 50%; */
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
 }
-.footer a
+.footer .copyright .p1
 {
-    margin: 20px;
+    color: rgb(255, 136, 0);;
 }
-.ytlogo
+.footer .copyright .p2
 {
-    height: 35px;
-    width: 35px;
+    color: #000;
 }
-.footer p
+.footer .copyright .youtube
 {
-    margin-left: 20px;
+    margin-top: 10px;
+}
+.footer .copyright .facebook
+{
+    margin-top: 10px;
 }
