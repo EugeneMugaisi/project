@@ -3,9 +3,10 @@ body
 {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    background: url(oip.jpg);
-    background-attachment: fixed;
+    /* background: url(oip.jpg);
+    background-attachment: fixed; */
 }
 header
 {
@@ -14,14 +15,14 @@ header
     /* max-width: 1200px; */
     margin: 20px auto;
     padding: 10px;
-    /* background: #fff; */
+    background: url(oip.jpg);
     box-sizing: border-box;
     border-radius: 4px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 header.black
 {
-    background: rgba(0, 0, 0, .8);
+    background: rgba(0, 0, 0);
     height: 80px;
     padding: 8px 50px;
 }
@@ -132,52 +133,186 @@ nav ul li a:hover
         margin: 0;
     }
 }
-.box1
+.contact
 {
-    height: 300px;
-    width: 100%;
-    background: #262626;
-}
-.box2
-{
-    height: 200px;
-    width: 100%;
-    margin-top: 30px;
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
     display: flex;
-    justify-content: left;
-    align-items: inherit;
-    background: #262626;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(bg.jpg);
+    background-size: cover;
 }
-.box2 ul li
+.contact .content
 {
-    list-style: none;
-    margin-top: 20px;
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2
+{
+    font-size: 36px;
+    font-weight: 500;
     color: #fff;
+}
+.contact .content p
+{
+    font-weight: 300;
+    color: #fff;
+}
+.container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .containerInfo
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .containerInfo  .box
+{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container .containerInfo  .box .icon
+{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.container .containerInfo  .box .text
+{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container .containerInfo  .box .text h3
+{
+    font-weight: 500;
+    color: rgb(255, 136, 0);
+}
+.contactForm
+{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+}
+.contactForm h2
+{
+    font-size: 30px;
+    color: rgb(255, 136, 0);
+    font-weight: 500;
+}
+.contactForm .inputBox
+{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid rgb(255, 136, 0);
+    outline: none;
+    resize: none;
+}
+.contactForm .inputBox span
+{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span
+{
+    color: rgb#0055f7;
+    font-size: 12px;
+    transform: translatey(-20px);
+}
+.contactForm .inputBox input[type="submit"]
+{
+    width: 100px;
+    background: rgb(255, 136, 0);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+@media (max-width: 991px)
+{
+    .contact
+    {
+        padding: 50px;
+    }
+    .container
+    {
+        flex-direction: column;
+    }
+    .container .contactInfo
+    {
+        margin-bottom: 40px;
+    }
+    .container .contactInfo,
+    .contactForm
+    {
+        width: 100%;
+    }
 }
 .footer
 {
-    margin-top: 20px;
     height: auto;
     width: 100%;
-    background: rgba(255, 255, 255, .4);
+    background: rgba(0, 0, 0, .15);
 }
 .footer .copyright
 {
-    margin-left: 20px;
-    font-size: 18px;
-    font-weight: 200;
-    color: rgb(255, 136, 0);
+    /* width: 50%; */
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
 }
-.footer a
+.footer .copyright .p1
 {
-    margin: 20px;
+    color: rgb(255, 136, 0);;
 }
-.ytlogo
+.footer .copyright .p2
 {
-    height: 35px;
-    width: 35px;
+    color: #000;
 }
-.footer p
+.footer .copyright .youtube
 {
-    margin-left: 20px;
+    margin-top: 10px;
+}
+.footer .copyright .facebook
+{
+    margin-top: 10px;
 }
