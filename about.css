@@ -260,7 +260,8 @@ nav ul li a:hover
     width: 20%;
     margin-top: 20px;
     margin-bottom: 20px;
-    background: url(circles/qmen.jpg);
+    background: url(qmenbible.jpg);
+    background-size: cover;
     border-radius: 50%;
 }
 .circles .usfw
@@ -269,7 +270,8 @@ nav ul li a:hover
     width: 20%;
     margin-top: 20px;
     margin-bottom: 20px;
-    background: url(circles/usfw.jpg);
+    background: url(usfwPraying.jpg);
+    background-size: cover;
     border-radius: 50%;
 }
 .circles .yfp
@@ -278,7 +280,8 @@ nav ul li a:hover
     width: 20%;
     margin-top: 20px;
     margin-bottom: 20px;
-    background: url(circles/yfp.jpg);
+    background: url(youth.jpg);
+    background-size: cover;
     border-radius: 50%;
 }
 .circles .children
