@@ -4,8 +4,8 @@ body
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    background: url(oip.jpg);
-    background-attachment: fixed;
+    /* background: url(oip.jpg);
+    background-attachment: fixed; */
 }
 header
 {
@@ -14,14 +14,14 @@ header
     /* max-width: 1200px; */
     margin: 20px auto;
     padding: 10px;
-    /* background: #fff; */
+    background: url(oip.jpg);
     box-sizing: border-box;
     border-radius: 4px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 header.black
 {
-    background: rgba(0, 0, 0, .8);
+    background: rgba(0, 0, 0);
     height: 80px;
     padding: 8px 50px;
 }
@@ -135,7 +135,7 @@ nav ul li a:hover
 .programmes
 {
     height: auto;
-    width: 100%;
+    /* width: 100%; */
     margin-top: 20px;
     margin-bottom: 20px;
     padding-left: 20px;
@@ -144,7 +144,14 @@ nav ul li a:hover
     font-weight: 700;
     background: #fff;
 }
-.programmes h2
+.programmes .head
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* .programmes h2
 {
     display: flex;
     justify-content: center;
@@ -156,10 +163,11 @@ nav ul li a:hover
 {
     font-size: 25px;
     font-weight: inherit;
-}
+} */
 .table-box
 {
-    margin: 50px auto;
+    /* margin: 50px auto; */
+    background: rgba(0, 0, 0, .15);
 }
 .table-row
 {
@@ -167,7 +175,7 @@ nav ul li a:hover
     width: 80%;
     margin: 10px auto;
     font-family: 'Poppins', sans-serif;
-    background: transparent;
+    background: #fff;
     padding: 12px 0;
     color: #555;
     font-size: 18px;
@@ -189,57 +197,60 @@ nav ul li a:hover
     color: #fff;
     font-weight: 700;
 }
-.announcements
-{
-    height: 300px;
-    width: 60%;
-    margin: 20px;
-    background: #fff;
-}
-.announcements h2
+.covid
 {
     display: flex;
-   justify-content: center;
-   align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, .15);
+}
+.announcements
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background: rgba(0, 0, 0, .15); */
+}
+.announcements .churchAnnouncements
+{
+    height: auto;
+    color: #000
 }
 .events
 {
-    height: 300px;
-    width: 60%;
-    margin: 20px;
-    background: #fff;
-}
-.events h2
-{
-    display: flex;
-   justify-content: center;
-   align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: auto;
+    color: #000;
 }
 .footer
 {
-    margin-top: 20px;
     height: auto;
     width: 100%;
-    background: rgba(255, 255, 255, .4);
+    background: rgba(0, 0, 0, .15);
 }
 .footer .copyright
 {
-    margin-left: 20px;
-    font-size: 18px;
-    font-weight: 200;
-    color: rgb(255, 136, 0);
+    /* width: 50%; */
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
 }
-.footer a
+.footer .copyright .p1
 {
-    margin: 20px;
+    color: rgb(255, 136, 0);;
 }
-.ytlogo
+.footer .copyright .p2
 {
-    height: 35px;
-    width: 35px;
+    color: #000;
 }
-.footer p
+.footer .copyright .youtube
 {
-    margin-left: 20px;
+    margin-top: 10px;
 }
-
+.footer .copyright .facebook
+{
+    margin-top: 10px;
+}
