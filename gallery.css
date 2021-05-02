@@ -10,7 +10,7 @@ body
 header
 {
     position: relative;
-    width: 100%;
+    /* width: 100%; */
     /* max-width: 1200px; */
     margin: 20px auto;
     padding: 10px;
@@ -143,6 +143,36 @@ nav ul li a:hover
 /* .church
 {
     background: rgba(0, 0, 0, .1);
+} */
+/* .church .gallery
+{
+    position: relative;
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    padding: 45px 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 2vmin;
+    grid-auto-flow: dense;
+}
+.church .gallery .img
+{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+}
+/* .church .gallery .img #img1
+{
+    background: url(church13.JPG);
+    background-size: cover;
+} */
+.church .gallery .img:first-child
+{
+    grid-column-start: span 2;
+    grid-row-start: span 2;
 } */
 .georgefox
 {
