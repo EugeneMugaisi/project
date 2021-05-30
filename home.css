@@ -60,6 +60,13 @@ header.black a.logo .logopic
 {
     height: 65px;
 }
+@media (max-width: 768px)
+{
+    header.black a.logo .logopic
+    {
+        height: 55px;
+    }
+}
 nav
 {
     float: right;
@@ -100,7 +107,8 @@ nav ul li a:hover
     {
         margin: 20px;
     }
-}@media (max-width: 768px)
+}
+@media (max-width: 768px)
 {
     .menu-toggle
     {
@@ -610,4 +618,21 @@ nav ul li a:hover
 .footer .copyright .facebook
 {
     margin-top: 10px;
+}
+@media (max-width: 768px)
+{
+    .footer .copyright .p1,
+    .footer .copyright .p2
+    {
+        margin-left: 15px;
+    }
+}
+@media (max-width: 768px)
+{
+    .footer .copyright .youtube,
+    .footer .copyright .facebook
+    {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
 }
