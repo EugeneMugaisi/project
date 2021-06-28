@@ -20,7 +20,7 @@ body
 header
 {
     position: relative;
-    /* width: 100%; */
+    width: 100%;
     /* max-width: 1200px; */
     /* margin: 20px auto; */
     padding: 10px;
@@ -33,6 +33,10 @@ header.black
 {
     background: rgba(0, 0, 0);
     height: 80px;
+    z-index: 12;
+    margin-top: 0;
+    transition: .5s;
+    position: fixed;
     padding: 8px 50px;
 }
 header a.logo
@@ -62,6 +66,10 @@ header.black a.logo .logopic
 }
 @media (max-width: 768px)
 {
+    header.black
+    {
+        background: rgba(0, 0, 0, .9);
+    }
     header.black a.logo .logopic
     {
         height: 55px;
@@ -79,6 +87,7 @@ nav ul
 {
    margin: 0;
    padding: 0;
+   background: rgba(0, 0, 0, 0.4);
     display: flex;
 }
 nav ul li
