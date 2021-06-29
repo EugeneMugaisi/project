@@ -27,7 +27,7 @@ header.black
     height: 80px;
     z-index: 12;
     margin-top: 0;
-    transition: .5s;
+    transition: .3s;
     position: fixed;
     padding: 8px 50px;
 }

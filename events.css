@@ -12,7 +12,7 @@ header
     position: relative;
     width: 100%;
     /* max-width: 1200px; */
-    margin: 20px auto;
+    /* margin: 20px auto; */
     padding: 10px;
     background: url(oip.jpg);
     box-sizing: border-box;
@@ -25,7 +25,7 @@ header.black
     height: 80px;
     z-index: 12;
     margin-top: 0;
-    transition: .5s;
+    transition: .3s;
     position: fixed;
     padding: 8px 50px;
 }
