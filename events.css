@@ -221,6 +221,45 @@ nav ul li a:hover
     flex-direction: column;
     background: rgba(0, 0, 0, .15);
 }
+.join
+{
+    width: 100%;
+    margin: 0;
+    height: 400px;
+    background: url(outsidechurch/church14.jpg);
+    box-shadow: 0 0 2px rgba(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.join p
+{
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 18px;
+}
+.welcome p
+{
+    font-size: 18px;
+    margin-left: 18px;
+}
+.live
+{
+    width: 250px;
+    height: 70px;
+    background: rgb(255, 136, 0);
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.live a
+{
+    text-decoration: none;
+}
 .announcements
 {
     display: flex;
