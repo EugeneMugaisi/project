@@ -200,8 +200,9 @@ nav ul li a:hover
 .textBox1 input
 {
     margin: 20px;
-    width: 150px;
-    height: 60px;
+    padding: 10px;
+    width: auto;
+    height: auto;
     font-size: 20px;
     font-weight: 800;
     cursor: pointer;
@@ -210,6 +211,7 @@ nav ul li a:hover
 {
     width: 100%;
     height: 500px;
+    font-size: 24px;
     background: url(Church/IMG_0242.JPG);
     background-size: cover;
     background-attachment: fixed;
@@ -223,8 +225,9 @@ nav ul li a:hover
 .image1 input
 {
     margin: 20px;
-    width: 200px;
-    height: 60px;
+    padding: 10px;
+    width: auto;
+    height: auto;
     font-size: 20px;
     font-weight: 800;
     cursor: pointer;
@@ -511,10 +514,22 @@ nav ul li a:hover
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     text-align: center;
-    font-size: 24px;
+    font-size: 34px;
     font-weight: 800;
     color: #fff;
+}
+.in1 input
+{
+    margin: 20px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    text-align: center;
 }
 .in2
 {
@@ -530,6 +545,11 @@ nav ul li a:hover
     font-size: 24px;
     font-weight: 800;
     color: #fff;
+}
+.in2p
+{
+    font-family: 'Nunito' ,sans-serif;
+    font-size: 45px;
 }
 .in3
 {
@@ -560,6 +580,102 @@ nav ul li a:hover
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
     font-weight: 800;
+}
+.programmes
+{
+    width: 100%;
+    margin-top: 20px;
+    height: auto;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.quakermen
+{
+    font-size: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+}
+.quakermen input
+{
+    margin: 20px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    text-align: center;
+}
+.usfw
+{
+    font-size: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+}
+.usfw input
+{
+    margin: 20px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    text-align: center;
+}
+.yfp
+{
+    font-size: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+}
+.yfp input
+{
+    margin: 20px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    text-align: center;
+}
+.sschool
+{
+    font-size: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+}
+.sschool input
+{
+    margin: 20px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    text-align: center;
 }
 /* .in2 ul
 {
