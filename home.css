@@ -210,9 +210,10 @@ nav ul li a:hover
 .image1
 {
     width: 100%;
-    height: 500px;
+    height: 800px;
     font-size: 24px;
-    background: url(Church/IMG_0242.JPG);
+    color: #fff;
+    background: url(Church\ photos/hp5.jpg);
     background-size: cover;
     background-attachment: fixed;
     font-size: 28px;
@@ -221,6 +222,15 @@ nav ul li a:hover
     align-items: center;
     text-align: center;
     flex-direction: column;
+}
+@media (max-width: 768px){
+    .image1{
+        background-position: center;
+    }
+}
+.image1 p
+{
+    margin: 20px;
 }
 .image1 input
 {
@@ -509,7 +519,8 @@ nav ul li a:hover
 {
     width: 100%;
     height: 600px;
-    background: url(Church/IMG_2860.JPG) no-repeat center;
+    background: url(Church\ photos/hp9.jpg) no-repeat center;
+    background-size: cover;
     background-attachment: fixed;
     display: flex;
     justify-content: center;
@@ -519,6 +530,11 @@ nav ul li a:hover
     font-size: 34px;
     font-weight: 800;
     color: #fff;
+}
+@media (max-width: 768px){
+    .in1{
+        background-position: right;
+    }
 }
 .in1 input
 {
