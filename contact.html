@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="contacts.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>project 1</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script type="text/javascript">
+        $(window).on('scroll', function(){
+            if ($(window).scrollTop()){
+                $('header').addClass('black');
+            }
+            else
+            {
+                $('header').removeClass('black');
+            }
+        })
+    </script>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="logo.jfif" alt="" class="logopic"></a>
+        <div class="menu-toggle"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about2.html">About Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html"  class="active">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="clearfix"></div>
+    </header>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.menu-toggle').click(function(){
+            $('.menu-toggle').toggleClass('active')
+            $('nav').toggleClass('active')
+            })
+        })
+    </script>
+    <main>
+        <section class="contact">
+            <div class="content">
+                <h2>Contact Us</h2>
+                <p>We Believe That God Made You On Purpose, For A Purpose.</p>
+            </div>
+            <div class="container">
+                <div class="containerInfo">
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>Amalemba Estate,<br>Kakamega,<br>50100</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>056-31527</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>kakamegafriends@yahoo.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contactForm">
+                    <form action="">
+                        <h2>Send Message</h2>
+                        <div class="inputBox">
+                            <input type="text" name="" required="required">
+                            <span>Full Name</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="text" name="" required="required">
+                            <span>Email</span>
+                        </div>
+                        <div class="inputBox">
+                            <textarea name="" id="" cols="30" rows="10" required="required"></textarea>
+                            <span>Type your message...</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="submit" name="" value="Send">
+                        </div>
+                    </form>
+                </div>
+            </div>
+             <div class="map"><p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d705.2992138499168!2d34.75873954085713!3d0.26744400554895204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x17803dc681570dc7%3A0xd7f6e69559263610!2sKakamega%20Friends%20Church%20Amalemba!5e0!3m2!1sen!2ske!4v1625053620761!5m2!1sen!2ske" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p></div>
+        </section>
+       
+    </main>
+    <footer class="footer">
+        <div class="copyright">
+            <div class="p1"><p>Kakamega Friends Village Meeting</p></div>
+            <div class="p2"><p>KFC &copy;2021 All Rights Reserved</p></div>
+            <div class="youtube"><a href="https://youtube.com/channel/UCqHTEB5Ny-5T0MM6x7pvdng" target="_blank"><i class="fab fa-2x fa-youtube"></i></a></div>
+            <div class="facebook"><a href="https://www.facebook.com/profile.php?id=100045653815010" target="_blank"><i class="fab fa-2x fa-facebook-square"></i></a></div>
+        </div>
+    </footer>
+</body>
+</html>

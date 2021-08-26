@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="church outside/lightbox.min.css">
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <title>project 1</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script type="text/javascript">
+        $(window).on('scroll', function(){
+            if ($(window).scrollTop()){
+                $('header').addClass('black');
+            }
+            else
+            {
+                $('header').removeClass('black');
+            }
+        })
+    </script>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="logo.jfif" alt="" class="logopic"></a>
+        <div class="menu-toggle"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about2.html">About Us</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="events.html" >Events</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="clearfix"></div>
+    </header>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.menu-toggle').click(function(){
+            $('.menu-toggle').toggleClass('active')
+            $('nav').toggleClass('active')
+            })
+        })
+    </script>
+    <main>
+        <div class="h1"><h1>GALLERY</h1></div>
+        <div class="church">
+            <div class="img-area">
+                <div class="single-img"><a href="Church1/PSX_20210819_191656.jpg" data-lightbox="my gallery"><img src="Church1/PSX_20210819_191656.jpg" alt=""></a></div>
+                <div class="single-img"><a href="Church1/hp5.jpg" data-lightbox="my gallery"><img src="Church1/hp5.jpg" alt=""></a></div>
+                <div class="single-img"><a href="Church1/PSX_20210819_140412.jpg" data-lightbox="my gallery"><img src="Church1/PSX_20210819_140412.jpg" alt=""></a></div>
+                <div class="single-img"><a href="Church1/PSX_20210819_192002.jpg" data-lightbox="my gallery"><img src="Church1/PSX_20210819_192002.jpg" alt=""></a></div>
+                <!-- <div class="single-img"><a href="church outside/church7.JPG" data-lightbox="my gallery"><img src="church outside/church7 - Copy.JPG" alt=""></a></div> -->
+                <div class="single-img"><a href="Church1/PSX_20210822_174725.jpg" data-lightbox="my gallery"><img src="Church1/PSX_20210822_174725.jpg" alt=""></a></div>
+                <div class="single-img"><a href="Church1/PSX_20210822_174807.jpg" data-lightbox="my gallery"><img src="Church1/PSX_20210822_174807.jpg" alt=""></a></div>
+                <!-- <div class="single-img"><a href="church outside/church10.JPG" data-lightbox="my gallery"><img src="church outside/church10 - Copy.JPG" alt=""></a></div>
+                <div class="single-img"><a href="church outside/church12.JPG" data-lightbox="my gallery"><img src="church outside/church12 - Copy.JPG" alt=""></a></div> -->
+                <!-- <div class="single-img"><a href="outsidechurch/IMG_0239.JPG" data-lightbox="my gallery"><img src="outsidechurch/IMG_0239 - Copy.JPG" alt=""></a></div> -->
+                <div class="single-img"><a href="Church1/PSX_20210822_174629.jpg" data-lightbox="my gallery"><img src="Church1/PSX_20210822_174629.jpg" alt=""></a></div>
+                <div class="single-img"><a href="Church1/PSX_20210822_174903.jpg" data-lightbox="my gallery"><img src="Church1/PSX_20210822_174903.jpg" alt=""></a></div>
+                <div class="single-img"><a href="Church1/PSX_20210822_180236.jpg" data-lightbox="my gallery"><img src="Church1/PSX_20210822_180236.jpg" alt=""></a></div>
+                <div class="single-img"><a href="Church1/PSX_20210822_174604.jpg" data-lightbox="my gallery"><img src="Church1/PSX_20210822_174604.jpg" alt=""></a></div>
+                <!-- <div class="single-img"><a href="outsidechurch/IMG_0335.JPG" data-lightbox="my gallery"><img src="outsidechurch/IMG_0335 - Copy.JPG" alt=""></a></div> -->
+                <div class="single-img"><a href="Church1/PSX_20210822_180407.jpg" data-lightbox="my gallery"><img src="Church1/PSX_20210822_180407.jpg" alt=""></a></div>
+                <div class="single-img"><a href="Church1/PSX_20210822_181744.jpg" data-lightbox="my gallery"><img src="Church1/PSX_20210822_181744.jpg" alt=""></a></div>
+                <div class="single-img"><a href="Church1/psx6.jpg" data-lightbox="my gallery"><img src="Church1/psx6.jpg" alt=""></a></div>
+                <div class="single-img"><a href="Church1/psx1.jpg" data-lightbox="my gallery"><img src="Church1/psx1.jpg" alt=""></a></div>
+                <!-- <div class="single-img"><a href="p collo/IMG_9137.JPG" data-lightbox="my gallery"><img src="p collo/IMG_9137 - Copy.JPG" alt=""></a></div> -->
+            </div>
+            <!-- <div class="gallery">
+                <div class="img" id="img1">
+                    <img src="church outside/church3.JPG" alt="">
+                </div>
+                <div class="img">
+                    <img src="church outside/church4.JPG" alt="">
+                </div>
+                <div class="img">
+                    <img src="church outside/church5.JPG" alt="">
+                </div>
+                <div class="img">
+                    <img src="church outside/church6.JPG" alt="">
+                </div>
+                <div class="img">
+                    <img src="church outside/church7.JPG" alt="">
+                </div>
+                <div class="img">
+                    <img src="church outside/church8.JPG" alt="">
+                </div>
+                <div class="img">
+                    <img src="church outside/church9.JPG" alt="">
+                </div>
+                <div class="img">
+                    <img src="church outside/church10.JPG" alt="">
+                </div>
+                <div class="img">
+                    <img src="church outside/church12.JPG" alt="">
+                </div>
+                <div class="img">
+                    <img src="outsidechurch/IMG_0239.JPG" alt="">
+                </div>
+                <div class="img">
+                    <img src="outsidechurch/IMG_0240.JPG" alt="">
+                </div>
+                <div class="img">
+                    <img src="outsidechurch/IMG_0327.JPG" alt="">
+                </div>
+                <div class="img">
+                    <img src="outsidechurch/IMG_0328.JPG" alt="">
+                </div>
+                <div class="img">
+                    <img src="outsidechurch/IMG_0334.JPG" alt="">
+                </div>
+                <div class="img">
+                    <img src="outsidechurch/IMG_0335.JPG" alt="">
+                </div>
+                <div class="img">
+                    <img src="outsidechurch/IMG_3452.JPG" alt="">
+                </div>
+            </div> -->
+        </div>
+        <div class="georgefox">
+            <div class="gfdescription">
+                <p>The George Fox Centre</p>
+            </div>
+
+            <div class="img-area">
+                <div class="single-img"><a href="George fox/gf1.jpg" data-lightbox="my gallery"><img src="George fox/gf1 (2).jpg" alt=""></a></div>
+                <div class="single-img"><a href="George fox/gf2.jpg" data-lightbox="my gallery"><img src="George fox/gf2 (2).jpg" alt=""></a></div>
+                <div class="single-img"><a href="George fox/gf3.jpg" data-lightbox="my gallery"><img src="George fox/gf3 (2).jpg" alt=""></a></div>
+                <div class="single-img"><a href="church outside/church11.JPG" data-lightbox="my gallery"><img src="church outside/church11 - Copy.JPG" alt=""></a></div>
+            </div>
+        </div>
+        <div class="pwt">
+            <div class="pwtdescription">
+                <p>The Praise And Worship Team</p>
+            </div>
+            <p>Ezra 3:11. With paise and thanksgiving they sang to the Lord:</p>
+            <div class="img-area">
+                <div class="single-img"><a href="pwt/pwt1 - Copy.JPG" data-lightbox="my gallery"><img src="pwt/pwt1.JPG" alt=""></a></div>
+                <div class="single-img"><a href="pwt/pwt2 - Copy.JPG" data-lightbox="my gallery"><img src="pwt/pwt2.JPG" alt=""></a></div>
+                <div class="single-img"><a href="pwt/pwt4 - Copy.JPG" data-lightbox="my gallery"><img src="pwt/pwt4.JPG" alt=""></a></div>
+                <div class="single-img"><a href="pwt/pwt5 - Copy.JPG" data-lightbox="my gallery"><img src="pwt/pwt5.JPG" alt=""></a></div>
+                <div class="single-img"><a href="pwt/pwt6 - Copy.JPG" data-lightbox="my gallery"><img src="pwt/pwt6.JPG" alt=""></a></div>
+                <div class="single-img"><a href="pwt/pwt7 - Copy.JPG" data-lightbox="my gallery"><img src="pwt/pwt7.JPG" alt=""></a></div>
+                <div class="single-img"><a href="pwt/pwt8 - Copy.JPG" data-lightbox="my gallery"><img src="pwt/pwt8.JPG" alt=""></a></div>
+            </div>
+        </div>
+        <div class="sundayschool">
+            <div class="sundayschooldescription">
+                <p>Sunday School</p>
+            </div>
+            <p>"Let the little children come to me, and do not hinder them, for the kingdom of heaven belongs to such as these" Matthew 19:14</p>
+            <div class="img-area">
+                <div class="single-img"><a href="sundayschool/IMG-20210419-WA0015.jpg" data-lightbox="my gallery"><img src="sundayschool/IMG-20210419-WA0015 - Copy.jpg" alt=""></a></div>
+                <div class="single-img"><a href="sundayschool/IMG-20210419-WA0016.jpg" data-lightbox="my gallery"><img src="sundayschool/IMG-20210419-WA0016 - Copy.jpg" alt=""></a></div>
+                <div class="single-img"><a href="sundayschool/IMG-20210419-WA0017.jpg" data-lightbox="my gallery"><img src="sundayschool/IMG-20210419-WA0017 - Copy.jpg" alt=""></a></div>
+                <div class="single-img"><a href="sundayschool/IMG-20210419-WA0018.jpg" data-lightbox="my gallery"><img src="sundayschool/IMG-20210419-WA0018 - Copy.jpg" alt=""></a></div>
+            </div>
+        </div>
+        <div class="mega-church">
+            <div class="mega-church-h2">
+                <p>The Mega Church Project</p>
+            </div>
+            <p>Luke 1:37: For nothing will be impossible with God</p>
+            <div class="img-area">
+                <div class="single-img"><a href="mega church/mc1 - Copy.jpg" data-lightbox="my gallery"><img src="mega church/mc1.jpg" alt=""></a></div>
+                <div class="single-img"><a href="mega church/mc2 - Copy.jpg" data-lightbox="my gallery"><img src="mega church/mc2.jpg" alt=""></a></div>
+                <div class="single-img"><a href="mega church/mc3 - Copy.jpg" data-lightbox="my gallery"><img src="mega church/mc3.jpg" alt=""></a></div>
+                <div class="single-img"><a href="mega church/mc4 - Copy.jpg" data-lightbox="my gallery"><img src="mega church/mc4.jpg" alt=""></a></div>
+                <div class="single-img"><a href="mega church/mc5 - Copy.jpg" data-lightbox="my gallery"><img src="mega church/mc5.jpg" alt=""></a></div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="copyright">
+            <div class="p1"><p>Kakamega Friends Village Meeting</p></div>
+            <div class="p2"><p>KFC &copy;2021 All Rights Reserved</p></div>
+            <div class="youtube"><a href="https://youtube.com/channel/UCqHTEB5Ny-5T0MM6x7pvdng" target="_blank"><i class="fab fa-2x fa-youtube"></i></a></div>
+            <div class="facebook"><a href="https://www.facebook.com/profile.php?id=100045653815010" target="_blank"><i class="fab fa-2x fa-facebook-square"></i></a></div>
+        </div>
+    </footer>
+</body>
+</html>
