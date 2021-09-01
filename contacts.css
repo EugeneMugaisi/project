@@ -158,25 +158,44 @@ nav ul li a:hover
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url(outsidechurch/church15.jpg);
+    background: url(Church1/psx2.jpg);
     background-size: cover;
+}
+@media (max-width: 768px)
+{
+    .contact
+    {
+        background: rgba(0, 0, 0, .15);
+    }
 }
 .contact .content
 {
     max-width: 800px;
     text-align: center;
 }
-.contact .content h2
+.contact .content h1
 {
-    font-size: 36px;
-    font-weight: 500;
-    color: #fff;
+    font-family: 'Poppins' ,sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #000;
 }
 .contact .content p
 {
-    font-size: 24px;
-    font-weight: 300;
+    font-size: 28px;
+    font-weight: bold;
     color: #fff;
+}
+@media (max-width: 768px)
+{
+    .contact .content
+    {
+        text-align: center;
+    }
+    .contact .content p
+    {
+        color: #000;
+    }
 }
 .container
 {
@@ -222,6 +241,20 @@ nav ul li a:hover
 {
     font-weight: 500;
     color: rgb(255, 136, 0);
+}
+@media (max-width: 768px)
+{
+    .container
+    {
+        align-items: center;
+        text-align: center;
+        margin: 5px;
+        right: 20px;
+    }
+    .container .containerInfo  .box .text p
+    {
+        color: #000;
+    }
 }
 .contactForm
 {
@@ -318,7 +351,7 @@ nav ul li a:hover
 } */
 .footer
 {
-    height: auto;
+    height: 20vh;
     width: 100%;
     background: rgba(0, 0, 0, .15);
 }
@@ -347,6 +380,10 @@ nav ul li a:hover
 }
 @media (max-width: 768px)
 {
+    .footer
+    {
+        width: 100%;
+    }
     .footer .copyright .p1,
     .footer .copyright .p2
     {
