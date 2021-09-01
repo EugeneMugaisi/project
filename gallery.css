@@ -333,7 +333,7 @@ nav ul li a:hover
 }
 .footer
 {
-    height: auto;
+    height: 20vh;
     width: 100%;
     background: rgba(0, 0, 0, .15);
 }
@@ -362,6 +362,10 @@ nav ul li a:hover
 }
 @media (max-width: 768px)
 {
+    .footer
+    {
+        width: 100%;
+    }
     .footer .copyright .p1,
     .footer .copyright .p2
     {
