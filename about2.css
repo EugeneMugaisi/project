@@ -184,6 +184,10 @@ nav ul li a:hover
     font-size: 20px;
     line-height: 34px;
 }
+@media (max-width: 768px)
+{
+    
+}
 /* .originpic
 {
     margin-top: 0;
