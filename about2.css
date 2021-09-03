@@ -172,10 +172,11 @@ nav ul li a:hover
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: justify;
 }
 .originBox h2
 {
+    text-align: center;
     font-size: 34px;
     font-weight: 900;
 }
@@ -186,7 +187,41 @@ nav ul li a:hover
 }
 @media (max-width: 768px)
 {
-    
+    .originBox p
+    {
+        text-align: center;
+        padding: 20px;
+        line-height: 24px;
+    }
+}
+@media (max-width: 768px)
+{
+    .contentarea h1,
+    .originBox h2,
+    .originBox p
+    {
+        font-size: 18px;
+    }
+    .contentarea .origin
+    {
+        padding: 20px;
+        height: auto;
+        width: 100%;
+        background: rgba(0, 0, 0, .1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .originBox h2,
+    .originBox p
+    {
+        text-align: center;
+    }
+    .content h1
+    {
+        font-size: 34px;
+    }
 }
 /* .originpic
 {
@@ -245,33 +280,13 @@ nav ul li a:hover
 {
     font-size: 60px;
 }
-@media (max-width: 768px)
+@media(max-width: 768px)
 {
-    .contentarea h1,
-    .originBox h2,
-    .originBox p
+    .content p
     {
         font-size: 18px;
-    }
-    .contentarea .origin
-    {
-        padding: 20px;
-        height: auto;
-        width: 100%;
-        background: rgba(0, 0, 0, .1);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    .originBox h2,
-    .originBox p
-    {
-        text-align: center;
-    }
-    .content h1
-    {
-        font-size: 34px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 /* .contentarea .leadership
@@ -347,13 +362,17 @@ nav ul li a:hover
 @media (max-width: 768px)
 {
     .contentarea .leadership .leaders h2,
-    .contentarea .leadership .leaders p,
     .contentarea .leadership .leaders ul li,
     .contentarea .leadership .pastors h2,
-    .contentarea .leadership .pastors p,
     .contentarea .leadership .pastors ul li
     {
         font-size: 18px;
+    }
+    .contentarea .leadership .leaders p,
+    .contentarea .leadership .pastors p
+    {
+        padding-right: 10px;
+        padding-left: 10px;
     }
     .contentarea .leadership
     {
@@ -558,6 +577,55 @@ nav ul li a:hover
     {
         width: 100%;
         flex-direction: column;
+    }
+}
+.wordings
+{
+    width: 66%;
+    height: auto;
+    /* background: rgba(0, 0, 0, .15); */
+}
+.wordings .pcwordings
+{
+    width: 100%;
+    height: 100%;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.wordings .pcwordings .pcimg img
+{
+    width: 500px;
+    height: 400px;
+}
+.wordings .pcwordings .pctext
+{
+    padding: 30px;
+    text-align: justify;
+}
+.wordings .pcwordings .pctext p
+{
+    font-size: 20px;
+    line-height: 25px;
+}
+@media(max-width:768px)
+{
+    .wordings
+    {
+        width: 100%;
+    }
+    .wordings .pcwordings
+    {
+        width: 100%;
+        height: 100%;
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    .wordings .pcwordings .pcimg img
+    {
+        width: 400px;
+        height: 400px;
     }
 }
 .footer
